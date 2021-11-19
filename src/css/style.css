@@ -1,0 +1,100 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: orbitron, sans-serif;
+    font-style: normal;
+}
+
+header {
+    background: rgba(29, 28, 28, 0.733);
+    padding: 10px;
+}
+
+.caixa {
+    position: relative;
+    width: 1200px;
+    height: 200px;
+    left: 50px;
+}
+
+.logo {
+    width: 200px;
+    height: 200px;
+}
+
+nav {
+    position: absolute;
+    top: 100px;
+    right: 0px;
+    left: 250px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+nav a:hover {
+    color: #C78C19;
+    font-size: 24px;
+    text-decoration: underline;
+    transform: scale(0.7);
+}
+
+nav a:target {
+    scroll-margin-top: .8em;
+}
+
+.image-initial {
+    background: url("../img/initial.png")  no-repeat scroll left;
+    background-size:100% 100%;
+    width: 100%;
+}
+
+.principal{
+	padding: 2em 0 0 0;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.principal p{
+	margin: 0 0 1em;
+	font-weight: normal;	
+}
+
+footer {
+	background: url("../img/bg.jpg");
+	padding: 20px 0;
+    padding-bottom: 40px;
+    height: 80px;
+}
+
+.copyright {
+    font-weight: lighter;
+	color: #FFF;
+	font-size: 16px;
+    position: absolute;
+    right: 250px;
+    margin-right: 120px;
+    padding-top: 40px;
+    float: right;
+}
+
+.logo-footer {
+    width: 100px;
+    height: 100px;
+    margin-left: 400px;
+    float: left;
+}
