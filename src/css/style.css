@@ -5,6 +5,7 @@ html{
 body {
     font-family: orbitron, sans-serif;
     font-style: normal;
+    background-image: linear-gradient(rgb(255, 255, 255), /*rgb(70, 70, 70)*/ rgb(0, 0, 0));
 }
 
 header {
@@ -53,10 +54,6 @@ nav a:hover {
     transform: scale(0.7);
 }
 
-nav a:target {
-    scroll-margin-top: .8em;
-}
-
 .image-initial {
     background: url("../img/initial.png")  no-repeat scroll left;
     background-size:100% 100%;
@@ -74,8 +71,15 @@ nav a:target {
 	font-weight: normal;	
 }
 
+.galeria {
+    width: 25%;
+    display: inline-block;
+    padding: 30px;
+    height: 400px;
+}
+
 footer {
-	background: url("../img/bg.jpg");
+	/*background: url("../img/bg.jpg");*/
 	padding: 20px 0;
     padding-bottom: 40px;
     height: 80px;
