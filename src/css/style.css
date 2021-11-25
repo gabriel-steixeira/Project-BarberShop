@@ -4,8 +4,7 @@ html{
 
 body {
     font-family: orbitron, sans-serif;
-    font-style: normal;
-    background-image: linear-gradient(rgb(255, 255, 255), /*rgb(70, 70, 70)*/ rgb(0, 0, 0));
+    font-weight: normal;
 }
 
 header {
@@ -13,19 +12,21 @@ header {
     padding: 10px;
 }
 
-.caixa {
+#caixa {
     position: relative;
     width: 1200px;
     height: 200px;
     left: 50px;
 }
 
-.logo {
+#logo {
     width: 200px;
     height: 200px;
+    padding-left: 120px;
 }
 
 nav {
+    text-align: center;
     position: absolute;
     top: 100px;
     right: 0px;
@@ -54,21 +55,87 @@ nav a:hover {
     transform: scale(0.7);
 }
 
-.image-initial {
+#image-initial {
     background: url("../img/initial.png")  no-repeat scroll left;
     background-size:100% 100%;
     width: 100%;
 }
 
-.principal{
+#principal{
 	padding: 2em 0 0 0;
-	width: 940px;
-	margin: 0 auto;
 }
 
-.principal p{
+#principal p{
 	margin: 0 0 1em;
 	font-weight: normal;	
+    font-size: 18px;
+}
+
+#principal h1 {
+    margin-top: 80px;
+	font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+#quem-somos {
+    margin: 0 40px;
+}
+
+#quem-somos h1 {
+    margin-top: 0px;
+	font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+#horario-funcionamento {
+    margin-top: 30px;
+    background-color:#000;
+    opacity: 0.8;
+    color: white;
+    text-align: center;
+}
+
+#horario-funcionamento h1 {
+    margin-top: 0px;
+    font-weight: normal;
+}
+
+.horarios {
+    background-color:#fff;
+    opacity: 0.8;
+    color: black;
+    display: inline-flex;
+    padding: 30px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+
+.horarios h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#servicos {
+    margin: 0 40px;
+}
+
+#servicos h1 {
+    margin-top: 30px;
+}
+
+#galeria {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0), rgb(255, 255, 255));
+    text-align: center;
+}
+
+
+#galeria h1 {
+    margin-top: 30px;
 }
 
 .galeria {
@@ -79,15 +146,14 @@ nav a:hover {
 }
 
 footer {
-	/*background: url("../img/bg.jpg");*/
 	padding: 20px 0;
     padding-bottom: 40px;
     height: 80px;
 }
 
-.copyright {
+#copyright {
     font-weight: lighter;
-	color: #FFF;
+	color: #000;
 	font-size: 16px;
     position: absolute;
     right: 250px;
@@ -96,7 +162,7 @@ footer {
     float: right;
 }
 
-.logo-footer {
+#logo-footer {
     width: 100px;
     height: 100px;
     margin-left: 400px;
