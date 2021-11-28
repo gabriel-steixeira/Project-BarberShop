@@ -91,8 +91,7 @@ nav a:hover {
 
 #horario-funcionamento {
     margin-top: 30px;
-    background-color:#000;
-    opacity: 0.8;
+    background-color: rgb(80, 80, 80);
     color: white;
     text-align: center;
 }
@@ -129,7 +128,7 @@ nav a:hover {
 }
 
 #galeria {
-    background-image: linear-gradient(rgb(255, 255, 255), rgb(0, 0, 0), rgb(255, 255, 255));
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(80, 80, 80), rgb(255, 255, 255));
     text-align: center;
 }
 
@@ -159,12 +158,12 @@ footer {
     right: 250px;
     margin-right: 120px;
     padding-top: 40px;
-    float: right;
+    /*float: right;*/
 }
 
 #logo-footer {
     width: 100px;
     height: 100px;
     margin-left: 400px;
-    float: left;
+   float: left;
 }
