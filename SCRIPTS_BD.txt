@@ -1,0 +1,29 @@
+create database bd_barberShopCGT;
+
+use bd_barberShopCGT;
+
+create table cliente (
+	id_cliente int primary key auto_increment,
+    nome varchar(35) not null,
+    sobrenome varchar(35) not null,
+    email varchar(254) not null,
+    telefone bigint(14) not null,
+    senha varchar(14) not null
+) AUTO_INCREMENT=1;
+
+create table servicos (
+	id_servico int primary key auto_increment,
+    nome_servico varchar(35) not null,
+    preco float not null
+) AUTO_INCREMENT=1;
+
+create table agendamento (
+	id_agendamento int primary key auto_increment,
+    id_cliente int,
+    id_servico int,
+    data_agendamento date,
+    hora_agendamento time,
+	foreign key (id_cliente) references id_cliente (cliente),
+    foreign key (id_servico) references id_servico (servicos)
+) AUTO_INCREMENT=1;
+

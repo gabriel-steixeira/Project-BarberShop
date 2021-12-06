@@ -11,7 +11,7 @@ header {
     padding: 10px;
 }
 
-#caixa {
+.caixa {
     position: relative;
     width: 1200px;
     height: 200px;
@@ -22,6 +22,12 @@ header {
     width: 200px;
     height: 200px;
     padding-left: 110px;
+}
+
+#logo-area-cliente {
+    width: 200px;
+    height: 200px;
+    padding-left: 200px;
 }
 
 nav {
@@ -52,14 +58,15 @@ nav a:hover {
     color: #000;  
     opacity: 0.7;
     padding: 10px;
-    font-size: 24px;
+    font-size: 22px;
     text-decoration: underline;
     transform: scale(0.7);
+    border-radius: 20px 60px 40px 80px;
 }
 
 #image-initial {
     background: url("../img/initial.png")  no-repeat scroll left;
-    background-size:100% 100%;
+    background-size: 100% 100%;
     width: 100%;
 }
 
