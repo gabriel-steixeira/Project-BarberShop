@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../src/css/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/dlb0xbo.css">
     <link rel="shortcut icon" type="image/png" href="../src/img/icon-pag.ico">
-    <title>CGT - Área do Cliente</title>
+    <title>CGT - Login</title>
 </head>
 
 <body>
@@ -26,11 +26,15 @@
             </div>
         </header>
     </div>
-    <div id="principal">
-        <p align="center"><iframe height="350" width="100%" scrolling="no" src="login.html" name="iframe"></iframe></p>
-        <p align="center">Já tem um cadastro? <a href="login.html" target="iframe">Fazer Login!</a></p>
-        <p align="center">Não tem um login? <a href="cadastro.html" target="iframe">Cadastre-se já!</a></p>
-        
+    <div id="principal-areaCliente">
+        <h1>Login</h1>
+        <form action="../backend/login.php" method="post">
+            Nome: <input type="text" name="nome" required /><br><br>
+            Email: <input type="email" name="email" required /><br><br>
+            Senha: <input type="password" name="senha" required /><br><br>
+            <input class="button" type="submit" value="Fazer Login" name="submit" />
+        </form> 
+        <p>Não tem um login? <a href="cadastro.html">Cadastre-se já!</a></p>
     </div>
     <footer>
         <img id="logo-footer" src="../src/img/logo.png">

@@ -27,3 +27,16 @@ create table agendamento (
     foreign key (id_servico) references id_servico (servicos)
 ) AUTO_INCREMENT=1;
 
+insert into servicos (nome_servico, preco)
+VALUES ("CORTE CABELO TESOURA", 40.00),
+("CORTE CABELO MÁQUINA", 35.00),
+("CORTE PADRÃO MÁQUINA", 30.00),
+("BARBOTERAPIA", 35.00),
+("SELAGEM", 75.00),
+("RELAXAMENTO", 40.00),
+("ACABAMENTO", 15.00),
+("SOBRANCELHAS", 15.00),
+("COLORAÇÃO CABELO", 35.00),
+("COLORAÇÃO BARBA", 25.00),
+("DESCOLORAÇÃO", 80.00),
+("LUZES/REFLEXO", 45.00);
