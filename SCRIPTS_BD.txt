@@ -18,13 +18,14 @@ create table servicos (
 ) AUTO_INCREMENT=1;
 
 create table agendamento (
-	id_agendamento int primary key auto_increment,
-    id_cliente int,
-    id_servico int,
-    data_agendamento date,
-    hora_agendamento time,
-	foreign key (id_cliente) references id_cliente (cliente),
-    foreign key (id_servico) references id_servico (servicos)
+    id_agendament int NOT NULL AUTO_INCREMENT,
+    nome varchar(35) NOT NULL,
+    nome_servico varchar(35) NOT NULL,
+    data_agendamento date DEFAULT NULL,
+    hora_agendamento time DEFAULT NULL,
+    PRIMARY KEY (`id_agendamento`),
+    KEY nome (nome),
+    KEY nome_servico (nome_servico)
 ) AUTO_INCREMENT=1;
 
 insert into servicos (nome_servico, preco)
