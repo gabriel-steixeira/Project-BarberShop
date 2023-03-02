@@ -12,6 +12,6 @@ Website fictício construído para praticar habilidades de HTMl, CSS e PHP. O si
 
 #### Link do site*
 
-https://biel-gt.github.io/Project-BarberShop/frontend/index.html
+<a href="https://biel-gt.github.io/Project-BarberShop/frontend/index.html">Clique aqui</a>
 
 *o site publicado é estático, conta somente com o Front-end, ainda não possui o Back-end com PHP e o Database
